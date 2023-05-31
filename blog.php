@@ -1,4 +1,4 @@
-<? php include 'header.php'; ?>
+<?php include 'header.php'; ?>
     <div class="welcome"><h1>  ⚘  Welcome to my blog  ⚘ </h1></div>
     <div class="container">
         <div class="post1">

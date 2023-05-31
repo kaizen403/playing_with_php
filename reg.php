@@ -14,7 +14,7 @@
 
         $password_hash = password_hash($password, PASSWORD_BCRYPT);
 
-        $query = $connection->prepare("SELECT * FROM users WHERE email=:email");
+        $query = $connection->prepare("SELECT * FROM login WHERE email=:email");
 
         $query->bindParam("email", $email, PDO::PARAM_STR);
 
@@ -28,7 +28,7 @@
 
         if ($query->rowCount() == 0) {
 
-            $query = $connection->prepare("INSERT INTO users(username,password,email) VALUES (:username,:password_hash,:email)");
+            $query = $connection->prepare("INSERT INTO login(username,password,email) VALUES (:username,:password_hash,:email)");
 
             $query->bindParam("username", $username, PDO::PARAM_STR);
 
