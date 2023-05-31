@@ -1,3 +1,14 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['user_id'])){
+        header('Location: blog_login.php');
+        exit;
+    } else {
+
+    }
+?>
+
+
 <?php include 'header.php'; ?>
     <div class="welcome"><h1>  ⚘  Welcome to my blog  ⚘ </h1></div>
     <div class="container">

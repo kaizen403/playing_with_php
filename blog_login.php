@@ -10,7 +10,7 @@
           </label>
           <input class='eml' type="submit" name="login" value="login">
         </form>
-        <h5><a href="blog_reg.php">Don't have a account yet?</a></h5>
+        <h4><a href="blog_reg.php">Don't have a account yet?</a></h4>
       </section>
 </body>
 </html>

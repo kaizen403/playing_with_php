@@ -40,8 +40,7 @@
 
             if ($result) {
 
-                echo '<p style="color:red">Your registration was successful!</p>';
-
+                header('Location: blog_login.php');
             } else {
 
                 echo '<p style="color:red">Something went wrong!</p>';

@@ -15,7 +15,6 @@
             <input type="submit" name="register" value="Register">
           </div>
         </form>
-        <h5><a href="blog_reg.php">Forgot password</a></h5>
       </section>
 
 </body>
